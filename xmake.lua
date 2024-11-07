@@ -3,6 +3,8 @@ set_arch("x86_64")
 set_languages("c99")
 set_version("1.0.0")
 
+add_includedirs("src")
+
 target("my_package")
     set_kind("static")
     
