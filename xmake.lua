@@ -1,3 +1,8 @@
+set_project()("my_package")
+set_arch("x86_64")
+set_languages("c99")
+set_version("1.0.0")
+
 target("my_package")
     set_kind("static")
     
