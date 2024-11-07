@@ -1,12 +1,12 @@
 set_project("my_package")
-set_languages("c99")
+set_languages("c++20")
 set_version("1.0.0")
 
 add_includedirs("src")
 
 target("my_package")
     set_kind("static")
-    
+
     add_files("src/foo.c")
     add_headerfiles("src/foo.h")
 
