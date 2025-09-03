@@ -4,4 +4,4 @@ target("target1")
 
     add_includedirs("include", { public = true })
 
-    add_headerfiles("include/bar/bar.h")
+    add_headerfiles("include/(bar/*.h)")
