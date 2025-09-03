@@ -1,5 +1,5 @@
 #include "baz.h"
-#include "bar.h"
+#include "bar/bar.h"
 
 int baz(void)
 {
