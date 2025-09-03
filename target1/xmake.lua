@@ -1,4 +1,4 @@
-target("my_headeronly_package")
+target("target1")
     set_kind("headeronly")
 
     add_headerfiles("src/bar.h")
